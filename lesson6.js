@@ -24,10 +24,8 @@ console.log(num);
 // Проверьте задачу на массиве с элементами 12, 15, 20, 25, 59, 79.
 console.log('task 3');
 const arr = [12, 15, 20, 25, 59, 79];
-// let i = 0;
-// let sum = 0;
-let arrSum = arr.reduce((a,b) => a + b, 0) / arr.length;
-console.log(arrSum)
+let avr = arr.reduce((a,b) => a + b, 0) / arr.length;
+console.log(avr)
 
 // 4. Дан массив [1, 2, 3, 4, 5]. Cделайте из него массив [1, 2, 3, 'a', 'b', 'c', 4, 5].
 console.log('task 4');
