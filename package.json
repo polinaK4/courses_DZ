@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/polinaK4/courses_DZ#readme",
   "dependencies": {
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "jasmine": "^4.5.0",
+    "mocha": "^10.1.0"
   }
 }
